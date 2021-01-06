@@ -1,8 +1,7 @@
 import axios from 'axios';
 import { ADD_CITY_MEDELLIN, SEARCH_CITY } from '../Constants/constants'
-import { REACT_APP_API_KEY }  from '../../env.js';
 
-const apiKey = REACT_APP_API_KEY
+const apiKey = process.env.REACT_APP_API_KEY
 
 export function getCityMed(){
   return( dispatch =>{
