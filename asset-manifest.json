@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/eduvaldev/weather-app-evoion/static/css/main.774687b7.chunk.css",
+    "main.js": "/eduvaldev/weather-app-evoion/static/js/main.1214e3c2.chunk.js",
+    "main.js.map": "/eduvaldev/weather-app-evoion/static/js/main.1214e3c2.chunk.js.map",
+    "runtime-main.js": "/eduvaldev/weather-app-evoion/static/js/runtime-main.78552a74.js",
+    "runtime-main.js.map": "/eduvaldev/weather-app-evoion/static/js/runtime-main.78552a74.js.map",
+    "static/js/2.5d7da1aa.chunk.js": "/eduvaldev/weather-app-evoion/static/js/2.5d7da1aa.chunk.js",
+    "static/js/2.5d7da1aa.chunk.js.map": "/eduvaldev/weather-app-evoion/static/js/2.5d7da1aa.chunk.js.map",
+    "index.html": "/eduvaldev/weather-app-evoion/index.html",
+    "static/css/main.774687b7.chunk.css.map": "/eduvaldev/weather-app-evoion/static/css/main.774687b7.chunk.css.map",
+    "static/js/2.5d7da1aa.chunk.js.LICENSE.txt": "/eduvaldev/weather-app-evoion/static/js/2.5d7da1aa.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/eduvaldev/weather-app-evoion/static/media/globo-1.73e32cfc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78552a74.js",
+    "static/js/2.5d7da1aa.chunk.js",
+    "static/css/main.774687b7.chunk.css",
+    "static/js/main.1214e3c2.chunk.js"
+  ]
+}
