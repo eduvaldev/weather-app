@@ -8,6 +8,9 @@ const InfoCart = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  @media (max-width: 600px){
+    width: 100%;
+  }
 `;
 
 const Carts = () => {
@@ -22,6 +25,7 @@ const Carts = () => {
             sys={city.sys}
             weather={city.weather}
             main={city.main}
+            id={city.id}
           />
       ))}
     </InfoCart>

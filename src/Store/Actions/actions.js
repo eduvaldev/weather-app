@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_CITY_MEDELLIN, SEARCH_CITY } from '../Constants/constants'
+import { ADD_CITY_MEDELLIN, SEARCH_CITY, CLOSE_CITY } from '../Constants/constants'
 
 const apiKey = process.env.REACT_APP_API_KEY
 
@@ -24,5 +24,14 @@ export function searchCity(city){
               payload: res.data
             })
           })
+  })
+}
+
+export function closeCity(id){
+  return( dispatch =>{
+    dispatch({
+      type: CLOSE_CITY,
+      payload: id
+    })
   })
 }

@@ -14,3 +14,11 @@ body {
   background-position-y: -178px;
   font-family: 'Poppins', sans-serif;
 }
+
+@media screen and ( max-width: 600px ){
+  body{
+    background-size: auto;
+    background-position-y: 0;
+    background-size: cover;
+  }
+}

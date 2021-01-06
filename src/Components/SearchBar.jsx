@@ -8,6 +8,10 @@ const InputSearch = styled.input`
   border: none;
   padding: 17px 20px;
   margin-bottom: 100px;
+  @media (max-width: 600px){
+    width: 100%;
+    margin-bottom: 50px;
+  }
 `;
 
 const Searchbar = () => {

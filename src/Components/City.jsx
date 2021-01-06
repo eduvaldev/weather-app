@@ -14,6 +14,14 @@ const InfoMedellin = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @media (max-width: 900px){
+    width: 40%;
+  }
+  @media (max-width: 600px){
+    width: auto;
+    height: 715px;
+    padding: 40px 30px;
+  }
 `
 
 const TextLight = styled.h4`
@@ -56,8 +64,6 @@ const City = () => {
   useEffect( ()=>{
     dispatch(getCityMed())
   }, [])
-
-  console.log(state)
 
   if( !name || !sys || !weather || !main){
     return(
