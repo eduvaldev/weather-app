@@ -13,7 +13,6 @@ const Reducer = (state = initalState, action)=>{
 
     case SEARCH_CITY:
       var match = state.cities.filter( city => city.id === action.payload.id);
-      console.log(match);
       if(match && match.length > 0 ) return { ...state }
       
       return { ...state, cities: state.cities.concat(action.payload) }
