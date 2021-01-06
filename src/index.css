@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./Media/globo-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 139vh;
+  background-position-y: -178px;
+  font-family: 'Poppins', sans-serif;
+}

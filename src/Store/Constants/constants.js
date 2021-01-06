@@ -1,0 +1,2 @@
+export const ADD_CITY_MEDELLIN = 'ADD_CITY_MEDELLIN';
+export const SEARCH_CITY = 'SEARCH_CITY';
